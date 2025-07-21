@@ -28,7 +28,7 @@ theme:
     - content.code.copy
 
 nav:
-  - index.md
+  - Главная: index.md
   - О себе:
     - about/about.md
     - Опыт работы: about/experience.md
