@@ -1,0 +1,204 @@
+site_name: Вячеслав Лаптев - Siemens SIMATIC Specialist
+site_url: https://vjacheslav772.github.io/Test_Site/
+site_author: Вячеслав Лаптев
+site_description: >-
+  Персональное портфолио инженера-программиста контроллеров Siemens SIMATIC,
+  DevOps специалиста и преподавателя. Опыт в промышленной автоматизации,
+  участник WorldSkills International 2013.
+
+# Репозиторий
+repo_name: vjacheslav772/Test_Site
+repo_url: https://github.com/vjacheslav772/Test_Site
+edit_uri: edit/main/docs/
+
+# Тема Material с настройками в стиле Siemens
+theme:
+  name: material
+  language: ru
+
+  # Цветовая схема в стиле Siemens
+  palette:
+    # Светлая тема
+    - scheme: default
+      primary: custom  # Будем использовать кастомный Siemens Petrol
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на тёмную тему
+
+    # Тёмная тема  
+    - scheme: slate
+      primary: custom  # Siemens Petrol
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на светлую тему
+
+  # Шрифты
+  font:
+    text: Inter
+    code: Roboto Mono
+
+  # Иконки и логотип
+  icon:
+    logo: material/factory
+    repo: fontawesome/brands/github
+
+  # Возможности темы
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.action.edit
+
+# Структура навигации
+nav:
+  - Главная: index.md
+  - Обо мне:
+      - О себе: about/index.md
+      - Опыт работы: about/experience.md
+      - Навыки и компетенции: about/skills.md
+      - Достижения: about/achievements.md
+  - Портфолио:
+      - Обзор: portfolio/index.md
+      - Siemens SIMATIC:
+          - Проекты S7-1200/1500: portfolio/siemens/s7-projects.md
+          - TIA Portal разработка: portfolio/siemens/tia-projects.md
+          - SCADA системы: portfolio/siemens/scada-systems.md
+          - HMI интерфейсы: portfolio/siemens/hmi-projects.md
+      - Преподавание:
+          - Курсы по Siemens: portfolio/teaching/siemens-courses.md
+          - WorldSkills опыт: portfolio/teaching/worldskills.md
+          - Материалы обучения: portfolio/teaching/materials.md
+      - DevOps проекты:
+          - Автоматизация CI/CD: portfolio/devops/cicd.md
+          - Docker контейнеры: portfolio/devops/docker.md
+          - Мониторинг систем: portfolio/devops/monitoring.md
+      - Python разработка:
+          - Автоматизация задач: portfolio/python/automation.md
+          - Интеграционные скрипты: portfolio/python/integration.md
+          - ИИ инструменты: portfolio/python/ai-tools.md
+      - Сетевые проекты: portfolio/networks/index.md
+  - Резюме: resume/index.md
+  - Блог:
+      - Главная: blog/index.md
+      - Статьи по Siemens: blog/siemens/
+      - Технические заметки: blog/tech/
+      - Рекомендации: blog/recommendations/
+  - Контакты: contacts.md
+
+# Расширения Markdown
+markdown_extensions:
+  # Базовые
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      title: Содержание
+
+  # PyMdown Extensions для продвинутых возможностей
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: vjacheslav772
+      repo: Test_Site
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Плагины
+plugins:
+  - search:
+      lang: ru
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+      locale: ru
+
+# Дополнительные настройки
+extra:
+  # Социальные сети
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/vjacheslav772
+      name: GitHub профиль
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/vyacheslav-laptev
+      name: LinkedIn профиль
+    - icon: fontawesome/solid/envelope
+      link: mailto:vyacheslav@example.com
+      name: Электронная почта
+
+  # Аналитика (по желанию)
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+
+  # Локализация
+  alternate:
+    - name: Русский
+      link: ./
+      lang: ru
+
+# Дополнительный CSS для кастомных цветов Siemens
+extra_css:
+  - stylesheets/siemens-theme.css
+
+# Дополнительный JavaScript (если нужно)
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Копирайт
+copyright: >
+  Copyright &copy; 2025 Вячеслав Лаптев. 
+  <a href="#__consent">Настройки куки</a>
