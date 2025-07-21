@@ -37,7 +37,7 @@ nav:
       - Главная: portfolio/index.md
       - Проекты Siemens: portfolio/siemens-projects.md
       - Преподавание: portfolio/teaching.md
-      - DevOps проекты: portfolio/devops-projects.md
+#      - DevOps проекты: portfolio/devops-projects.md
       - Python разработка: portfolio/python-projects.md
   - Резюме: resume/index.md
   - Блог: blog/index.md
