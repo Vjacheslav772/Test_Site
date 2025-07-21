@@ -30,7 +30,7 @@ theme:
 nav:
   - Главная: index.md
   - О себе:
-    - about/index.md
+    - about/about.md
     - Опыт работы: about/experience.md
     - Навыки и компетенции: about/skills.md
   - Портфолио:
