@@ -1,38 +1,46 @@
-site_name: Сайт-тест Вячеслава
+site_name: Вячеслав Лаптев - DevOps Engineer & SCADA Developer
 site_url: https://Vjacheslav772.github.io/Test_Site/
+site_author: Вячеслав
+site_description: Персональное портфолио инженера-программиста контроллеров Siemens, DevOps специалиста и преподавателя
+
 theme:
   name: material
-  #шрифты для текста и сылок:
-  font:
-    text: Merriweather Sans
-    code: Red Hat Mono
-  #logo: assets/logo.png
-  icon:
-    logo: fontawesome/solid/w
-  #favicon: assets/favicon.ico
-  #favicon: fonta
-  features:
-    - navigation.footer
+  language: ru
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
-
-    # Light Mode
     - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
       primary: blue
-      accent: deep orange
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Переключить на темную тему
+    - scheme: slate
+      primary: blue
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Переключить на светлую тему
+        
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
 
+nav:
+  - Главная: index.md
+  - О себе:
+    - about/index.md
+    - Опыт работы: about/experience.md
+    - Навыки и компетенции: about/skills.md
+  - Портфолио:
+    - portfolio/index.md
+    - Проекты Siemens: portfolio/siemens-projects.md
+    - Преподавание: portfolio/teaching.md
+    - DevOps проекты: portfolio/devops-projects.md
+    - Python разработка: portfolio/python-projects.md
+  - Резюме: resume/index.md
+  - Блог: blog/index.md
+  - Контакты: contacts.md
 site_author: Viacheslav Aprodu
 copyright: Copyright &copy; 2025 Viacheslav Aprodu
-#markdown_extensions:
-#  - admonition
-#  - pymdownx.details
-#  - pymdownx.superfences
