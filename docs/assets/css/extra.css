@@ -1,0 +1,80 @@
+/* Кастомная тема в стиле Siemens для MkDocs Material */
+
+/* Переопределяем цвета на Siemens Petrol */
+:root {
+  --md-primary-fg-color: #009999; /* Siemens Petrol */
+  --md-primary-fg-color--light: #00b3b3;
+  --md-primary-fg-color--dark: #008080;
+  --md-accent-fg-color: #EB780A; /* Siemens Orange для светлой темы */
+  --md-accent-fg-color--transparent: rgba(235, 120, 10, 0.1);
+}
+
+/* Тёмная тема */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #009999; /* Siemens Petrol остается */
+  --md-accent-fg-color: #647D2D; /* Siemens Green для тёмной темы */
+  --md-accent-fg-color--transparent: rgba(100, 125, 45, 0.1);
+}
+
+/* Кастомные стили для технической документации */
+.tech-spec {
+  background: linear-gradient(90deg, #009999 0%, #00b3b3 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.siemens-highlight {
+  background: rgba(0, 153, 153, 0.1);
+  border-left: 4px solid #009999;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+}
+
+/* Специальные стили для кода ПЛК */
+.hljs-plc {
+  background: #f8f9fa !important;
+  border: 1px solid #009999;
+}
+
+/* Стили для карточек проектов */
+.project-card {
+  background: linear-gradient(135deg, rgba(0, 153, 153, 0.05) 0%, rgba(235, 120, 10, 0.05) 100%);
+  border: 1px solid rgba(0, 153, 153, 0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+.project-card h3 {
+  color: #009999;
+  border-bottom: 2px solid #EB780A;
+  padding-bottom: 0.5rem;
+}
+
+/* Стили для навыков и компетенций */
+.skill-bar {
+  background: rgba(0, 153, 153, 0.1);
+  height: 20px;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+}
+
+.skill-progress {
+  background: linear-gradient(90deg, #009999 0%, #EB780A 100%);
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+/* Респонсивность для мобильных */
+@media (max-width: 768px) {
+  .project-card {
+    padding: 1rem;
+  }
+
+  .tech-spec {
+    padding: 0.75rem;
+  }
+}
