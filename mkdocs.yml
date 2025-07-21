@@ -30,15 +30,15 @@ theme:
 nav:
   - Главная: index.md
   - Об авторе:
-    - Основное: about/index.md
-    - Опыт работы: about/experience.md
-    - Навыки и компетенции: about/skills.md
+      - Основное: about/index.md
+      - Опыт работы: about/experience.md
+      - Навыки и компетенции: about/skills.md
   - Портфолио:
-    - portfolio/index.md
-    - Проекты Siemens: portfolio/siemens-projects.md
-    - Преподавание: portfolio/teaching.md
-    - DevOps проекты: portfolio/devops-projects.md
-    - Python разработка: portfolio/python-projects.md
+      - Главная: portfolio/index.md
+      - Проекты Siemens: portfolio/siemens-projects.md
+      - Преподавание: portfolio/teaching.md
+      - DevOps проекты: portfolio/devops-projects.md
+      - Python разработка: portfolio/python-projects.md
   - Резюме: resume/index.md
   - Блог: blog/index.md
   - Контакты: contacts.md
