@@ -29,7 +29,7 @@ theme:
 
 nav:
   - Главная: index.md
-  - О себе:
+  - О Вячеславе:
     - Основное: about/index.md
     - Опыт работы: about/experience.md
     - Навыки и компетенции: about/skills.md
