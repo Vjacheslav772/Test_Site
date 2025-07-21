@@ -1,4 +1,4 @@
-site_name: Вячеслав Лаптев - DevOps Engineer & SCADA Developer
+site_name: Вячеслав Фамилия - DevOps Engineer & SCADA Developer
 site_url: https://Vjacheslav772.github.io/Test_Site/
 site_author: Вячеслав
 site_description: Персональное портфолио инженера-программиста контроллеров Siemens, DevOps специалиста и преподавателя
@@ -42,5 +42,5 @@ nav:
   - Резюме: resume/index.md
   - Блог: blog/index.md
   - Контакты: contacts.md
-site_author: Viacheslav Aprodu
-copyright: Copyright &copy; 2025 Viacheslav Aprodu
+site_author: Viacheslav Фамилия
+copyright: Copyright &copy; 2025 Viacheslav Фамилия
