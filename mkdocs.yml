@@ -1,8 +1,8 @@
 
 site_name: Vyacheslav Aprodu — PLC & SCADA Engineer-Developer | Siemens Automation Expert
 site_url: https://aprodu-plc.ru/
-site_author: Вячеслав Апроду
-site_description: Персональное портфолио инженера-программиста контроллеров Siemens
+site_author: Vyacheslav Aprodu
+site_description: Персональный сайт инженера-программиста контроллеров Siemens SIMATIC
 
 theme:
   name: material
