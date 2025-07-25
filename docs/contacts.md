@@ -156,7 +156,7 @@
 Инженер-программист Siemens SIMATIC
 
 📧 Email: 301172@gmail.com
-💼 LinkedIn: linkedin.com/in/vjacheslav-laptev
+💼 LinkedIn: https://www.linkedin.com/in/viacheslav-aprodu/
 👨‍💻 GitHub: github.com/Slav-jan
 📍 Местоположение: Краснодарский край, округ Новороссийск
 
