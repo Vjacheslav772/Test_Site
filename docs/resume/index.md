@@ -8,10 +8,9 @@
 ## Вячеслав Апроду
 ### Инженер-программист Siemens SIMATIC | DevOps специалист
 
-**Телефон:** +7 (XXX) XXX-XX-XX  
-**Email:** v.laptev@example.com  
-**Местоположение:** Краснодарский край, ст. Натухаевская  
-**GitHub:** [vjacheslav772](https://github.com/vjacheslav772)  
+**Email:** 301172@gmail.com  
+**Местоположение:** Краснодарский край, округ Новороссийск
+**GitHub:** [Slav-jan](https://github.com/Slav-jan)  
 **LinkedIn:** [Вячеслав Лаптев](https://linkedin.com/in/vjacheslav-laptev)
 
 ---
