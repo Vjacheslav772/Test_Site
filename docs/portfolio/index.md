@@ -140,6 +140,6 @@ pie title Распределение проектов по типам
 
 [Написать мне](../contacts.md){ .md-button .md-button--primary }
 [Скачать резюме](../resume/){ .md-button }
-[GitHub профиль](https://github.com/vjacheslav772){ .md-button }
+[GitHub профиль](https://github.com/Slav-jan){ .md-button }
 
 *Готов обсудить ваши проекты автоматизации и поделиться опытом!*
