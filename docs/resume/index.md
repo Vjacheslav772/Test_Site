@@ -5,8 +5,8 @@
 
 ---
 
-# Вячеслав Лаптев
-## Инженер-программист Siemens SIMATIC | DevOps специалист
+## Вячеслав Апроду
+### Инженер-программист Siemens SIMATIC | DevOps специалист
 
 **Телефон:** +7 (XXX) XXX-XX-XX  
 **Email:** v.laptev@example.com  
