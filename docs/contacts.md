@@ -101,15 +101,15 @@
 ## Полезные ссылки
 
 ### 📚 Мои ресурсы
-- [Основной сайт-портфолио](https://vjacheslav772.github.io/Test_Site/)
-- [Курсы по Siemens](https://courses.example.com)
-- [Техническая документация](https://docs.v-laptev.ru)
-- [Блог об автоматизации](blog/)
+- [Основной сайт-портфолио](https://aprodu-plc.ru/)
+- [Курсы по Siemens...........]()
+- [Техническая документация................]()
+- [Блог об автоматизации.............](blog/)
 
 ### 🔧 Профессиональные инструменты
-- [GitHub репозитории](https://github.com/vjacheslav772?tab=repositories)
-- [Библиотеки для Siemens](https://github.com/vjacheslav772/siemens-libraries)
-- [Примеры проектов](https://github.com/vjacheslav772/automation-examples)
+- [GitHub репозитории](https://github.com/Slav-jan?tab=repositories)
+- [Библиотеки для Siemens](https://aprodu-plc.ru/siemens-libraries)
+- [Примеры проектов](https://aprodu-plc.ru/automation-examples)
 
 ---
 
@@ -155,10 +155,9 @@
 Вячеслав Апроду
 Инженер-программист Siemens SIMATIC
 
-📧 Email: v.laptev@example.com
-📱 Telegram: @vjacheslav_laptev
+📧 Email: 301172@gmail.com
 💼 LinkedIn: linkedin.com/in/vjacheslav-laptev
-👨‍💻 GitHub: github.com/vjacheslav772
+👨‍💻 GitHub: github.com/Slav-jan
 📍 Местоположение: Краснодарский край, округ Новороссийск
 
 🎯 Специализация: Промышленная автоматизация | Обучение | DevOps
