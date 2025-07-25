@@ -1,8 +1,8 @@
 
-site_name: Vyacheslav Aprodu — PLC & SCADA Engineer-Developer | Siemens Automation Expert
-site_url: https://Vjacheslav772.github.io/Test_Site/
-site_author: Vyacheslav Aprodu
-site_description: Персональный саffffffffйт инженера-программиста контроллеров Siemens SIMATIC
+site_name: Viacheslav Aprodu — PLC & SCADA Engineer-Developer | Siemens Automation Expert
+site_url: https://aprodu-plc.ru/
+site_author: Viacheslav Aprodu
+site_description: Персональный сайт инженера-программиста контроллеров Siemens SIMATIC
 
 theme:
   name: material
@@ -59,4 +59,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-copyright: Copyright &copy; 2025 Vyacheslav Aprodu
+copyright: Copyright &copy; 2025 Viacheslav Aprodu
